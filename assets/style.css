@@ -1,0 +1,62 @@
+nav{
+    background-color:white;
+}
+
+body{
+    background-color:rgb(35, 35, 35);
+
+}
+
+
+.jumbotron{    
+    background-color:rgb(84, 84, 84);
+    color:white;
+}
+
+.jumbotron.about-info{
+    margin:15px 5% auto 5%;
+}
+
+
+.jumbotron img{
+    float:left;
+    
+}
+
+textarea{
+    width:100%;
+    min-height:300px;
+
+}
+
+.about-info{
+    margin-top:15px;
+}
+
+.container{
+   /* padding-top:15px; */
+   color:white;
+}
+
+.gallery{
+/* overflow:hidden;   */
+}
+
+.row.galRow{
+    margin-bottom:15px;
+}
+
+.gallery img{
+   
+   width:100%;
+   /* height:100%; */
+   box-shadow:0 3px 5px black;
+   transition:box-shadow .5s;
+
+   
+}
+
+.gallery img:hover{
+   box-shadow:0 0px 5px goldenrod;
+   cursor:pointer;
+}

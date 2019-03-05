@@ -7,6 +7,12 @@ body{
 
 }
 
+#hr-styled{
+    border-bottom:none;
+    border-color:rgba(128, 128, 128, 0.51);
+    border-width:2px;
+    width:80%;
+}
 
 .jumbotron{    
     background-color:rgb(84, 84, 84);
@@ -52,6 +58,7 @@ textarea{
    /* height:100%; */
    box-shadow:0 3px 5px black;
    transition:box-shadow .5s;
+   margin-bottom:15px;
 
    
 }

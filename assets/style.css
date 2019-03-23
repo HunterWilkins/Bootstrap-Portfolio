@@ -23,6 +23,17 @@ body{
     margin:15px 5% auto 5%;
 }
 
+.extra-crap{
+    background:rgb(35, 35, 35);
+    color:white;
+    padding:15px;
+}
+
+.extra-crap:hover{
+    color:rgb(118, 145, 147);
+}
+
+
 
 .jumbotron img{
     float:left;
